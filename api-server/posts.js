@@ -6,23 +6,24 @@ const defaultData = {
   "8xf0y6ziyjabvozdd253nd": {
     id: '8xf0y6ziyjabvozdd253nd',
     timestamp: 1467166872634,
-    title: 'Udacity is the best place to learn React',
-    body: 'Everyone says so after all.',
-    author: 'thingtwo',
-    category: 'react',
-    voteScore: 6,
+    title: 'O que foi feito dos Engenheiros do Hawaii',
+    body: 'Os Engenheiros do Hawaii estão parados enquanto Humberto Gessinger está em turnê solo de seu último disco INSULAR. O show foi gravado e em breve será lançado em DVD. Toda semana, na madrugada entre a segunda e a terça feira, Humberto escreve no BLOGESSINGER. Lá você pode acompanhar a agenda de shows e outras novidades, assim como no humberto gessinger oficial no facebook.',
+    author: 'Humberto Gessinger',
+    category: 'musica',
+    voteScore: 7,
     deleted: false
   },
   "6ni6ok3ym7mf1p33lnez": {
     id: '6ni6ok3ym7mf1p33lnez',
     timestamp: 1468479767190,
-    title: 'Learn Redux in 10 minutes!',
-    body: 'Just kidding. It takes more than 10 minutes to learn technology.',
-    author: 'thingone',
-    category: 'redux',
+    title: 'O que penso sobre o Saulo',
+    body: 'O Saulo obviamente é o homem mais lindo do mundo. Mas nem sei porque estou dizendo isso, pois todo mundo já sabe!',
+    author: 'Mulheres',
+    category: 'saulo',
     voteScore: -5,
     deleted: false
-  }
+  },
+  
 }
 
 function getData (token) {

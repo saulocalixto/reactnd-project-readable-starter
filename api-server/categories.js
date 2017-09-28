@@ -15,7 +15,7 @@ const defaultData = {
       },
       {
         name: 'Cabelos',
-        path: 'Cabelos'
+        path: 'cabelos'
       },
       {
         name: 'Saulo',

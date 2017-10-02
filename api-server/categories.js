@@ -20,7 +20,15 @@ const defaultData = {
       {
         name: 'Saulo',
         path: 'saulo'
-      }
+      },
+      {
+        name: 'Literatura',
+        path: 'literatura'
+      },
+      {
+        name: 'Programação',
+        path: 'programacao'
+      },
   ]
 }
 

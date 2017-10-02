@@ -9,7 +9,7 @@ const defaultData = {
     title: 'O que foi feito dos Engenheiros do Hawaii',
     body: 'Os Engenheiros do Hawaii estão parados enquanto Humberto Gessinger está em turnê solo de seu último disco INSULAR. O show foi gravado e em breve será lançado em DVD. Toda semana, na madrugada entre a segunda e a terça feira, Humberto escreve no BLOGESSINGER. Lá você pode acompanhar a agenda de shows e outras novidades, assim como no humberto gessinger oficial no facebook.',
     author: 'Humberto Gessinger',
-    category: 'musica',
+    category: 'Música',
     voteScore: 7,
     deleted: false
   },
@@ -19,7 +19,7 @@ const defaultData = {
     title: 'O que penso sobre o Saulo',
     body: 'O Saulo obviamente é o homem mais lindo do mundo. Mas nem sei porque estou dizendo isso, pois todo mundo já sabe!',
     author: 'Mulheres',
-    category: 'saulo',
+    category: 'Saulo',
     voteScore: -5,
     deleted: false
   },
@@ -93,6 +93,9 @@ function vote (token, id, option) {
         case "downVote":
             post.voteScore = post.voteScore - 1
             break
+        case "loved":
+          post.voteScore = post.voteScore + 3
+          break
         default:
             console.log(`posts.vote received incorrect parameter: ${option}`)
     }
